@@ -1,5 +1,5 @@
 {
-    "dotnet": {
-        "submodule_dir": "zebur-deploy-demo"
-    }
+  "dotnet": {
+    "submodule_dir": "src/zebur-deploy-demo"
+  }
 }

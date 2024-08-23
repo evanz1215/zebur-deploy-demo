@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zebur-deploy-demo", "zebur-deploy-demo\zebur-deploy-demo.csproj", "{4E9876B0-6535-4CBF-87B0-8F456B6CE638}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D037459A-F3A4-43A0-95BD-DCD17606FD7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zebur-deploy-demo", "src\zebur-deploy-demo\zebur-deploy-demo.csproj", "{248E4508-A23D-4D10-B5C2-F38D4D56D1DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4E9876B0-6535-4CBF-87B0-8F456B6CE638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4E9876B0-6535-4CBF-87B0-8F456B6CE638}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4E9876B0-6535-4CBF-87B0-8F456B6CE638}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4E9876B0-6535-4CBF-87B0-8F456B6CE638}.Release|Any CPU.Build.0 = Release|Any CPU
+		{248E4508-A23D-4D10-B5C2-F38D4D56D1DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{248E4508-A23D-4D10-B5C2-F38D4D56D1DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{248E4508-A23D-4D10-B5C2-F38D4D56D1DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{248E4508-A23D-4D10-B5C2-F38D4D56D1DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{248E4508-A23D-4D10-B5C2-F38D4D56D1DE} = {D037459A-F3A4-43A0-95BD-DCD17606FD7D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1E354588-C056-4CD1-B9E9-B40CDAD7B3C3}
