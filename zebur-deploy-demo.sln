@@ -5,7 +5,9 @@ VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D037459A-F3A4-43A0-95BD-DCD17606FD7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zebur-deploy-demo", "src\zebur-deploy-demo\zebur-deploy-demo.csproj", "{248E4508-A23D-4D10-B5C2-F38D4D56D1DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zebur-deploy-demo", "src\zebur-deploy-demo\zebur-deploy-demo.csproj", "{248E4508-A23D-4D10-B5C2-F38D4D56D1DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{A9599009-4870-4087-8C84-4412F8965FEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +19,17 @@ Global
 		{248E4508-A23D-4D10-B5C2-F38D4D56D1DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{248E4508-A23D-4D10-B5C2-F38D4D56D1DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{248E4508-A23D-4D10-B5C2-F38D4D56D1DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9599009-4870-4087-8C84-4412F8965FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9599009-4870-4087-8C84-4412F8965FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9599009-4870-4087-8C84-4412F8965FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9599009-4870-4087-8C84-4412F8965FEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{248E4508-A23D-4D10-B5C2-F38D4D56D1DE} = {D037459A-F3A4-43A0-95BD-DCD17606FD7D}
+		{A9599009-4870-4087-8C84-4412F8965FEE} = {D037459A-F3A4-43A0-95BD-DCD17606FD7D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1E354588-C056-4CD1-B9E9-B40CDAD7B3C3}

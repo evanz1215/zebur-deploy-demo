@@ -1,6 +1,8 @@
+using ClassLibrary1;
 using Microsoft.AspNetCore.Mvc;
 
 namespace zebur_deploy_demo.Controllers;
+
 [ApiController]
 [Route("[controller]")]
 public class WeatherForecastController : ControllerBase
@@ -24,7 +26,8 @@ public class WeatherForecastController : ControllerBase
         {
             Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
             TemperatureC = Random.Shared.Next(-20, 55),
-            Summary = Summaries[Random.Shared.Next(Summaries.Length)]
+            Summary = Summaries[Random.Shared.Next(Summaries.Length)],
+            Name = new Class1().MyProperty
         })
         .ToArray();
     }
